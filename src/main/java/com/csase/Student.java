@@ -10,10 +10,11 @@ public class Student {
     private StudyPlanner planner;       // study planner
     private Scanner scanner;            // scanner for user input
 
+
     /*
      * Sets study planner and scanner
      */
-    public Student {
+    public Student() {
         planner = new StudyPlanner();
         scanner = new Scanner(System.in);
     }
